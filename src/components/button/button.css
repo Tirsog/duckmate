@@ -1,0 +1,23 @@
+
+button {
+  background-color: lightpink;
+  border: 2 solid black;
+  border-radius: 1.8rem;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  font-family: var(--textFont);
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 1rem 3rem;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+button:hover {
+  background-color: blueviolet;
+  color:white;
+}
+
