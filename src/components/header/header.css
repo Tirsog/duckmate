@@ -53,6 +53,7 @@ li a:hover {
 li.welcome {
     float: right;
     padding-right: 50px;
-    font-weight: 800;
-    
+    font-weight: bolder;
+    font-size: 26px;
 }
+

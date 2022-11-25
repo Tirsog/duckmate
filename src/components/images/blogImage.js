@@ -1,5 +1,5 @@
 import './blogImage.css';
-import blogImage1 from '../../fonts_images/thediplomat-2020-07-31-5.jpg'
+import blogImage1 from '../../fonts_images/blogImage1.png';
 
 
 
