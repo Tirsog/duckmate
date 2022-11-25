@@ -17,11 +17,11 @@ function Header(props) {
       
       
       <ul>
-        <li><a href="#home">Home</a></li>
+        <li><a href="#home">Home</a></li>s
         <li><a href="#profile">Profile</a></li>
         <li><a href="#posts"> Posts </a></li>
         <li><a href="#contact"> Contact </a></li>
-        <li className="welcome">Marwa D.<a href="#welcome"></a>        </li>
+        <li className="welcome">Marwa D.<a href="#"></a>        </li>
       </ul>
     </nav>
   );
