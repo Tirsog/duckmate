@@ -21,7 +21,7 @@ function App() {
   async function handleClick() {
     console.log(search)
     const responseJSON = await fetch(
-      `http://localhost:3001/api/post/?stack=${search}`
+      `https://duckmate-back-production.up.railway.app/api/post/?stack=${search}`
     );
     const response = await responseJSON.json();
     setData(response.payload)

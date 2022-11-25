@@ -57,7 +57,7 @@ export default function NewPost(props) {
         setPayload(obj)
         
         console.log('button clicked')
-        await fetch("http://localhost:3001/api/post",{method:'POST',headers:{'accept': 'application/json','content-type':'application/json'},
+        await fetch("https://duckmate-back-production.up.railway.app/api/post",{method:'POST',headers:{'accept': 'application/json','content-type':'application/json'},
         body: JSON.stringify(payload)
         })
         .then(response => response.json())
