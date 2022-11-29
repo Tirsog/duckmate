@@ -1,6 +1,5 @@
 import "./newPost.css";
 import Button from "../button/button.js"
-import newPost from "../../fonts_images/newPost.png";
 import {useState} from 'react'
 
 
@@ -56,34 +55,55 @@ export default function NewPost(props) {
     }
     
   return (
-       <div className='newPost'>
-            <h2 className='newPost-title'>New Project</h2>
+    <div className="newPost">
+      <h2 className="newPost-title">New Project</h2>
 
+      <div className="newPost-container">
+        <form onSubmit={clearInput}>
+          <label> Username: </label>
+          <input
+            type="text"
+            userName="userName"
+            placeholder="Username"
+            maxlength="20"
+            required
+            onChange={onChangeName}
+          />
 
-            <div className="newPost-container">
-                <img className='newPostImage' src={newPost} alt='logo'/>
-                  
-                <form onSubmit={clearInput} >
-                    <label> Username: </label>
-                    <input type="text" userName="userName" placeholder="Username" maxlength="20" required onChange={onChangeName}/>
+          <label> Title: </label>
+          <input
+            type="text"
+            userName="title"
+            placeholder="Project Title"
+            maxlength="30"
+            required
+            onChange={onChangeTitle}
+          />
 
-                    <label> Title: </label>
-                    <input type="text" userName="title"  placeholder="Project Title" maxlength="30" required onChange={onChangeTitle}/>
+          <label> Stack: </label>
+          <input
+            type="text"
+            userName="stack"
+            placeholder="Stack"
+            maxlength="50"
+            required
+            onChange={onChangeStack}
+          />
 
-                    <label> Stack: </label>
-                    <input type="text" userName="stack"  placeholder="Stack" maxlength="50" required onChange={onChangeStack}/>
+          <label> Describe your project: </label>
+          <textarea
+            userName="description"
+            placeholder="Description..."
+            maxlength="200"
+            required
+            onChange={onChangeDes}
+          ></textarea>
 
-                    <label> Describe your project: </label>
-                    <textarea  userName="description"  placeholder="Description..." maxlength="200" required onChange={onChangeDes}></textarea>
-                   
-                   
-                 <Button className='button' onClick={onClick} />
-                  
-                </form>
-                  
-            </div>
-        </div>
-    )
+          <Button className="button" onClick={onClick} />
+        </form>
+      </div>
+    </div>
+  );
 }
 
 

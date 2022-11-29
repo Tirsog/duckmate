@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="app">
       <Navbar />
-     {/*  <div className="postsContainer">
+       <div className="postsContainer">
         <div className="searchBarContainer">
           <Title img={poster} />
 
@@ -44,9 +44,8 @@ function App() {
           />
         </div>
         <Posts data={data} />
-      </div> */}
-      {/* second page begins here, maybe make a second component for the next page?  <NewPost />*/}
-      {/* <NewPost /> */}
+      </div>
+      <NewPost />
     </div>
   );
 }
