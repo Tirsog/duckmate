@@ -17,10 +17,6 @@ export default function Posts({data}) {
 }
 
 
-
-
-
-
 /*export default function Post(props){
     return (
         <div className="cardContainer">

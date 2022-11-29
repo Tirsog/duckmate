@@ -10,7 +10,3 @@ function BlogImage(props){
   )}
 
   export default BlogImage;
-
-
-
-

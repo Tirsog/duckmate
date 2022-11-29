@@ -1,4 +1,4 @@
-import Header from "../header/header";
+import Navbar from "../navbar/navbar";
 import "./App.css";
 import SearchBarInput from "../searchBarInput/Input";
 import Button from "../button/button";
@@ -30,20 +30,23 @@ function App() {
  
   return (
     <div className="app">
-      <Header />
-      <div className="postsContainer">
-
+      <Navbar />
+     {/*  <div className="postsContainer">
         <div className="searchBarContainer">
-          
-          <Title img = {poster}/>
-         
+          <Title img={poster} />
+
           <SearchBarInput onChange={handleSearch} />
-          <Button onClick={()=>{handleClick()}} text="SEARCH" />
+          <Button
+            onClick={() => {
+              handleClick();
+            }}
+            text="SEARCH"
+          />
         </div>
-        <Posts data = {data}/>
-      </div>
+        <Posts data={data} />
+      </div> */}
       {/* second page begins here, maybe make a second component for the next page?  <NewPost />*/}
-      <NewPost />
+      {/* <NewPost /> */}
     </div>
   );
 }

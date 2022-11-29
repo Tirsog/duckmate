@@ -1,5 +1,5 @@
 
-button {
+.button {
   background-color: lightpink;
   border: 2 solid black;
   border-radius: 1.8rem;
@@ -16,7 +16,7 @@ button {
   align-items: center;
 }
 
-button:hover {
+.button:hover {
   background-color: blueviolet;
   color:white;
 }
