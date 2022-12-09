@@ -2,6 +2,8 @@ import "./newPost.css";
 import Button from "../button/button.js"
 import {useState} from 'react'
 
+// https://github.com/SchoolOfCode/bc13_w9_project-frontend-madt/blob/main/src/components/newPost/newPost.js
+// https://react-hook-form.com/
 
 export default function NewPost(props) {
     const [name,setName] = useState("")
