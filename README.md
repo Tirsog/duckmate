@@ -9,6 +9,8 @@ This project is a React Sandbox. Consumes data provided by [Duck-Mate Back](http
 
 - [ ]  Create and configure .env variables.
 - [ ]  Install Auth0
+- [ ]  Install routes
+- [ ]  Install UseContext and find out what's the difference with tools like Redux
 - [ ]  Assets folder (And find Licensed images and icons)
 
 
